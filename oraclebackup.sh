@@ -1,7 +1,6 @@
 #!/bin/bash
 #This script backs up the Oracle DB every night
-
-rm -f /backups/backup-oracle*
+#Changed a line, sue me
 
 if tar -zcvf /backups/backup-classfiles-`date +%F`.tar.gz /root/classfiles/*
   then
